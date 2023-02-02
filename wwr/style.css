@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap');
 
 *{
     
@@ -11,12 +12,18 @@
     
 }
 
+
 nav a {
     text-align: center;
     text-decoration: none;
     color: #396E94;
+    font-family:"Montserrat", Helvetica, sans-serif ;
+    padding: 35px;
 }
 
+h1, h2{
+    font-family:"Montserrat", Helvetica, sans-serif;
+}
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -36,6 +43,8 @@ main section{
 
 body{
     background-color:#396E94;
+    font-family:"Fatface","IM Fell French Canon" ;
+    font-size: 22px;
 }
 
 header{
@@ -48,7 +57,9 @@ nav a:hover{
 }
 
 .book, .join{
-    background-color:#396E94;
+    background-color:#6cb3e6;
+    padding: 15px 30px;
+    font-family:"Montserrat", Helvetica, sans-serif;
 }
 
 .book:hover, .join:hover{
@@ -60,12 +71,20 @@ nav a:hover{
 }
 
 .msg{
-    background-color:#396E94;
+    background-color:#2b4141;
+    font-family:"Montserrat", Helvetica, sans-serif;
+    padding: 35px;
+    line-height: 1.5em;
+    margin-top: 200px;
 }
+
+
 
 footer{
     background-color:#8ab9b5;
     color:#396E94;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p{
@@ -82,23 +101,51 @@ nav a:hover{
 
 .home-title{
     color:#396E94;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
     color:#8ab9b5;
+    font-family:"Montserrat", Helvetica, sans-serif ;
+    padding-bottom: 30px;
+    font-weight: lighter;
+
 }
-.book, .join{
-    color:#8ab9b5;
+
+h2{
+    margin:0;
+}
+.join{
+    margin-top: 50px; 
+}
+
+.book, .join {
+    color:#2a5350;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    border: solid #6cb3e6 10px;
+    border-radius: 5px;
 }
+
+
 .book:hover, .join:hover{
 color: #396E94;
+border-color: #8ab9b5;
 }
+
+
 .msg h2{
-    color:#2b4141; 
+    color:#8ab9b5;
+    font-family:"Montserrat", Helvetica, sans-serif; 
+
 }
 .msg p{
-    color:#2b4141;
+    color:#8ab9b5;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding-bottom: 30px;
 }
 
 footer a{
@@ -109,14 +156,37 @@ footer a:hover{
     color:#2b4141;
 }
 
+footer .social img{
+    padding-top: 15px;
+}
+
 .logo{
     width: 80px;
 }
 
 .icon{
  width: 80px;
+ padding-top: 10px;
 }
 
 #hero-img{
     width: 100%;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin:200px 0;
+}
+
+.card-img{
+    border: #8ab9b5 solid 5px;
+}
+
+
+main section img {
+    box-sizing:border-box;
+
 }
